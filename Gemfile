@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'rake'
+gem 'webmock'
+gem 'capybara'
+gem 'site_prism'
+gem 'poltergeist'
+gem 'selenium-webdriver'

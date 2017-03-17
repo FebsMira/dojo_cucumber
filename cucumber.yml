@@ -1,0 +1,17 @@
+# default: --no-source --color --format pretty
+default: -p html_report -p json_report -p chrome -p dev
+
+# Reports
+html_report: --format pretty --format html --out=features_report.html
+json_report: --format progress --format json --out=features_report.json
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+poltergeist: BROWSER=poltergeist
+safari: BROWSER=safari
+
+# Ambientes
+dev: ENVIRONMENT_TYPE=dev
+homol: ENVIRONMENT_TYPE=homol
+prod: ENVIRONMENT_TYPE=prod
