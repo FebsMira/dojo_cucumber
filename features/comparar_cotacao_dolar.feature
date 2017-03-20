@@ -3,11 +3,11 @@
 
 @uol
 Funcionalidade: Comparar cotacao do dolar
-	Eu como cliente quero comparar a cotacao do dolar 
-	pesquisado no site do UOL no menu economia
+		Eu como cliente quero comparar a cotacao do dolar 
+		pesquisado no site do UOL no menu economia
 
 	Contexto: Acessar pagina do uol
-	Dado que estou na pagina inicial do google
+		Dado que estou na pagina inicial do google
 
 	@verificar_cotacao_do_dolar
 	Cenario: Comparar a cotacao do dolar pesquisado no site do UOL
